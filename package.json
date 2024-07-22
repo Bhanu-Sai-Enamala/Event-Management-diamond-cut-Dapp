@@ -1,0 +1,29 @@
+{
+  "name": "diamond-hardhat",
+  "version": "1.0.0",
+  "description": "Event Management Dapp using diamond cut",
+  "author": "Bhanu Sai",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.3.6",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.22.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.4.5",
+    "next": "^14.2.5",
+    "next-routes": "^1.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "web3": "^4.11.0"
+  }
+}
